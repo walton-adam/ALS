@@ -21,5 +21,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func CustomClick(_ sender: UIButton) {
+        print("It clicked the thing!")
+    }
 }
 
